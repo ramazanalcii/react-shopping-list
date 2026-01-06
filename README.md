@@ -1,12 +1,67 @@
-# React + Vite
+# 🛒 React Shopping List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React + Vite** kullanılarak geliştirilmiş basit ve kullanışlı bir **alışveriş listesi uygulamasıdır**. Projenin amacı React state yönetimini, component yapısını ve temel kullanıcı etkileşimlerini pratik etmektir.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Ürün ekleme
+* Ürün silme
+* Listeyi filtreleme
+* Boş liste durumu gösterimi
+* Component bazlı yapı
+* Modern ve hızlı Vite altyapısı
 
-## Expanding the ESLint configuration
+## 🧩 Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS**
+
+## 📁 Proje Yapısı
+
+```
+src/
+ ├── components/
+ │   ├── AddItemForm.jsx
+ │   ├── FilterButtons.jsx
+ │   ├── Header.jsx
+ │   ├── Item.jsx
+ │   ├── ListItems.jsx
+ │   └── NoItem.jsx
+ ├── data.js
+ ├── ReactState.jsx
+ ├── App.jsx
+ ├── main.jsx
+```
+
+## ⚙️ Kurulum ve Çalıştırma
+
+Aşağıdaki adımları izleyerek projeyi yerel ortamında çalıştırabilirsin:
+
+```bash
+git clone https://github.com/ramazanalcii/react-shopping-list.git
+cd react-shopping-list
+npm install
+npm run dev
+```
+
+Tarayıcıda açmak için:
+
+```
+http://localhost:5173
+```
+
+## 🎯 Amaç
+
+Bu proje, React öğrenme sürecimde state kullanımı, component mantığı ve proje yapısı konularında pratik yapmak amacıyla geliştirilmiştir.
+
+## 👤 Geliştirici
+
+**Ramazan Alcı**
+Yönetim Bilişim Sistemleri öğrencisi
+React ve frontend geliştirme alanında kendini geliştirmektedir.
+
+---
+
+📌 Geri bildirim ve önerilere açıktır.
